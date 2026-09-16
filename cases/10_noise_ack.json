@@ -1,0 +1,7 @@
+{
+  "id": "10_noise_ack",
+  "input": "asdf qwer",
+  "expect": {
+    "startswith": "ACK:"
+  }
+}

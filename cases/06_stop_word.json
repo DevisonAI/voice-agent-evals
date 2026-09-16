@@ -1,0 +1,7 @@
+{
+  "id": "06_stop_word",
+  "input": "stop talking",
+  "expect": {
+    "contains": "STOP"
+  }
+}

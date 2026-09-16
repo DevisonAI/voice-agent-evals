@@ -1,0 +1,7 @@
+{
+  "id": "08_transfer_alt",
+  "input": "transfer me to support",
+  "expect": {
+    "contains": "TRANSFER"
+  }
+}

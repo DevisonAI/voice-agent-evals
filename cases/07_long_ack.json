@@ -1,0 +1,7 @@
+{
+  "id": "07_long_ack",
+  "input": "Tell me about your return policy in one sentence",
+  "expect": {
+    "startswith": "ACK:"
+  }
+}

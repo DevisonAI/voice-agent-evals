@@ -1,0 +1,7 @@
+{
+  "id": "09_hours_alt",
+  "input": "are you open on weekends?",
+  "expect": {
+    "contains": "open"
+  }
+}
