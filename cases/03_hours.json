@@ -1,0 +1,7 @@
+{
+  "id": "03_hours",
+  "input": "What hours are you open?",
+  "expect": {
+    "contains": "open"
+  }
+}

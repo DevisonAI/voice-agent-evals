@@ -1,0 +1,7 @@
+{
+  "id": "01_greeting",
+  "input": "Hello there",
+  "expect": {
+    "startswith": "ACK:"
+  }
+}

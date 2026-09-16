@@ -1,0 +1,7 @@
+{
+  "id": "04_transfer",
+  "input": "I need a human please",
+  "expect": {
+    "contains": "TRANSFER"
+  }
+}
