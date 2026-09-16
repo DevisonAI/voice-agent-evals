@@ -1,0 +1,5 @@
+{
+  "id": "13_provider_names",
+  "input": "do you support elevenlabs and deepgram",
+  "expect": { "startswith": "ACK:" }
+}

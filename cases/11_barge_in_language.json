@@ -1,0 +1,5 @@
+{
+  "id": "11_barge_in_language",
+  "input": "sorry to interrupt but I need to stop you",
+  "expect": { "contains": "STOP" }
+}

@@ -1,0 +1,5 @@
+{
+  "id": "15_cancel_order",
+  "input": "cancel that",
+  "expect": { "contains": "STOP" }
+}

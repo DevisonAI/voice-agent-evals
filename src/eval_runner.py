@@ -8,11 +8,11 @@ from pathlib import Path
 def stub_agent(text: str) -> str:
     """Deterministic stand-in — swap for real agent later."""
     t = text.strip().lower()
-    if "cancel" in t or "stop" in t:
+    if "cancel" in t or "stop" in t or "interrupt" in t:
         return "STOP: acknowledged cancel"
     if "hours" in t or "open" in t:
         return "We are open 9am–5pm Mountain."
-    if "transfer" in t or "human" in t:
+    if "transfer" in t or "human" in t or "person" in t:
         return "TRANSFER: connecting you to a human"
     if not t:
         return "ERROR: empty input"
